@@ -1,4 +1,4 @@
-# CIS-17B-S25-33477-Assignment1
+# CIS17B-S25-33477-Assignment1
 Ash Nguyen  
 CIS-17B-33477  
 Simple Banking System Assignment 1  
