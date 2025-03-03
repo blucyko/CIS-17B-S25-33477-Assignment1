@@ -103,7 +103,6 @@ int main()
     const int CHECK_BALANCE_CHOICE = 4;
     const int QUIT_CHOICE = 5;
 
-    // Variable
     int choice;
 
     // Menu for the Simple Bank System
@@ -160,7 +159,6 @@ void createAccount()
         return;
     }
 
-    // Variables
     string name;
     double initialDeposit;
 
@@ -179,8 +177,10 @@ void createAccount()
     // Create new account in the fixed array
     accounts[accountCount] = BankAccount(name, initialDeposit);
 
-    cout << "Account created successfully! Your account number is: " << accounts[accountCount].getAccountNumber() << "\n";
-    accountCount++; 
+    cout << "Account created successfully! Your account number is: "
+        << accounts[accountCount].getAccountNumber() << "\n";
+
+    accountCount++;
 }
 // ************************************************************* //
 
@@ -189,7 +189,6 @@ void createAccount()
 // ========================= //
 void depositMoney()
 {
-    // Variables
     int accNum;
     double amount;
 
@@ -208,14 +207,14 @@ void depositMoney()
                 if (!(cin >> amount))
                 {
                     cout << "Invalid input. Please enter a valid number: ";
-                    cin.clear(); 
+                    cin.clear();
                     cin.ignore(100, '\n');
                     continue;
                 }
                 try
                 {
                     accounts[i].deposit(amount);
-                    break; 
+                    break;
                 }
                 catch (const exception& e)
                 {
@@ -259,7 +258,7 @@ void withdrawMoney()
                 try
                 {
                     accounts[i].withdraw(amount);
-                    break; 
+                    break;
                 }
                 catch (const exception& e)
                 {
