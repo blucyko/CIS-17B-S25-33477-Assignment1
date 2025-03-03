@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\anguy\Documents\CIS-17B-S25-33477-Assignment1\Assignment 1 Simple Banking System\Assignment 1 Simple Banking System\main.cpp(97,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Assignment 1 Simple Banking System.vcxproj -> C:\Users\anguy\Documents\CIS-17B-S25-33477-Assignment1\Assignment 1 Simple Banking System\Debug\Assignment 1 Simple Banking System.exe
